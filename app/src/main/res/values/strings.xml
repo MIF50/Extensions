@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Extensions</string>
+    <string name="text">text</string>
+    <string name="are_you_sure">Are you Sure</string>
+    <string name="btn_okay">Okay</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="text_search_for">Search for .....</string>
+</resources>

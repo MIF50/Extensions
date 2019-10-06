@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MaterialTextButtonDialog" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/font_button</item>
+    </style>
+
+    <style name="DialogAnimationPopup">
+        <item name="android:windowEnterAnimation">@anim/pop_up</item>
+    </style>
+
+    <style name="bold">
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+    <style name="semi_bold">
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+    <style name="regular">
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+
+    <style name="italic">
+        <item name="android:fontFamily">@font/italic</item>
+    </style>
+
+</resources>

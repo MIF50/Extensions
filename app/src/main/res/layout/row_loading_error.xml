@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ibLoadingMoreError"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@drawable/retry_selector"
+            android:padding="8dp"
+            android:tint="@color/colorPrimary"
+            android:tintMode="src_in"
+            app:srcCompat="@drawable/ic_refresh"
+            tools:targetApi="lollipop" />
+</RelativeLayout>
